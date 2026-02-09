@@ -16,3 +16,5 @@ High-throughput streaming lakehouse architecture with Apache Iceberg.
 <!-- build-audit: rev-014 verified at 2026-02-04 -->
 
 <!-- build-audit: rev-016 verified at 2026-02-06 -->
+
+<!-- build-audit: rev-018 verified at 2026-02-09 -->
