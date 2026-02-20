@@ -28,3 +28,8 @@ High-throughput streaming lakehouse architecture with Apache Iceberg.
 <!-- build-audit: rev-024 verified at 2026-02-17 -->
 
 <!-- build-audit: rev-026 verified at 2026-02-19 -->
+## Infrastructure
+
+- Redpanda (Kafka compatible)
+- MinIO S3 object store
+- Iceberg REST catalog
