@@ -68,3 +68,6 @@ class DeadLetterEvent(BaseModel):
         description="Timestamp when routed to DLQ"
     )
     source_topic: str = Field(default="telemetry.events.v1")
+
+
+# Optimized with deterministic SHA-256 fingerprinting
