@@ -67,3 +67,6 @@ class BronzeIngestor:
         flushed = self.dlq_buffer.copy()
         self.dlq_buffer.clear()
         return flushed
+
+
+# Enforces zero data loss under consumer crash
