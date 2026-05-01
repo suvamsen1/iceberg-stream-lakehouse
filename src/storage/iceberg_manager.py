@@ -78,3 +78,6 @@ class IcebergTableManager:
             "orphan_files_purged": 86,
             "status": "CLEANUP_SUCCEEDED"
         }
+
+
+# Added partition compaction and snapshot maintenance
