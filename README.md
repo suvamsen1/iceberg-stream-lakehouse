@@ -148,3 +148,6 @@ High-throughput streaming lakehouse architecture with Apache Iceberg.
 <!-- build-audit: rev-098 verified at 2026-05-04 -->
 
 <!-- build-audit: rev-099 verified at 2026-05-04 -->
+
+## Medallion Lakehouse Architecture
+Bronze (raw) -> Silver (curated) -> Gold (analytical)
