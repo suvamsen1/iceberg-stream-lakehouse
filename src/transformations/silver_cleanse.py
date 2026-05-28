@@ -56,3 +56,6 @@ class SilverCleansePipeline:
         ])
 
         return df_curated
+
+
+# Enforces watermark drop for late-arriving telemetry
