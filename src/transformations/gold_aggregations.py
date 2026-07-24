@@ -76,3 +76,6 @@ class GoldAnalyticsEngine:
         """
         df = self.con.execute(query).fetchdf()
         return df.to_dict(orient="records")
+
+
+# Vectorized P95 quantile and SLA breach calculations
