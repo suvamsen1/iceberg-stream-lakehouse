@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_telemetry_events
+    description: "Sanitized staging view of telemetry events with idempotency hashes."
+    columns:
+      - name: idempotency_hash
+        description: "Primary key SHA-256 fingerprint."
+        tests:
+          - unique
+          - not_null
+      - name: device_id
+        tests:
+          - not_null
+
+  - name: fct_hourly_system_health
+    description: "Aggregated hourly system health and anomaly detection metrics."
+    columns:
+      - name: cluster_region
+        tests:
+          - not_null
+      - name: avg_cpu_pct
+        tests:
+          - not_null
