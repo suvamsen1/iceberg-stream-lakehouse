@@ -328,3 +328,5 @@ Bronze (raw) -> Silver (curated) -> Gold (analytical)
 <!-- build-audit: rev-201 verified at 2026-08-28 -->
 
 <!-- build-audit: rev-202 verified at 2026-08-28 -->
+
+<!-- build-audit: rev-203 verified at 2026-08-29 -->
