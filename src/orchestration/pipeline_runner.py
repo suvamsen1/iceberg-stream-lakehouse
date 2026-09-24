@@ -90,3 +90,6 @@ def run_pipeline(record_count: int = 500):
 if __name__ == "__main__":
     count = int(sys.argv[1]) if len(sys.argv) > 1 else 300
     run_pipeline(count)
+
+
+# CLI entrypoint for batch & stream execution
