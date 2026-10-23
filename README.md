@@ -90,3 +90,5 @@ pytest tests/ -v --cov=src
 
 ## 📜 License
 Distributed under the **MIT License**. Created by [Suvam Sen](https://github.com/suvamsen1).
+
+<!-- verified release build 2026-10-23 -->
